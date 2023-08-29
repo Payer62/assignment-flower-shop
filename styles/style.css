@@ -16,6 +16,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 0;
     margin-bottom: 24px;
 }
 .section-description{
@@ -154,4 +155,47 @@ header{
 }
 .insta-img img{
     width: 100%;
+}
+/* form section styel */
+.form-section{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+.form-info{
+    padding: 120px;
+}
+.subscribe-form input[type="email"]{
+    padding: 22px 200px 22px 22px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none; 
+}
+/* footer styles */
+footer{
+    margin-top: 130px;
+    text-align: center;
+   background: #111010;
+}
+.footer-info{
+    padding: 130px 0;
+}
+#footer-title{
+    color: #FFF;
+    margin-bottom: 0;
+}
+#footer-title span{
+    color: #E55473;
+}
+#footer-des{
+    color: rgba(255, 255, 255, 0.90);
+    margin: 25px 0 30px 0;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
 }
