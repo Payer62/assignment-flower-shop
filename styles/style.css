@@ -129,6 +129,9 @@ header{
     justify-content: center;
     
 }
+.title-color{
+    color: #E55473;
+}
 .hot-deal-box{
     text-align: center;
 }
@@ -145,10 +148,10 @@ header{
 .insta-box{
     display: flex;
     gap: 25px;
-    justify-content: space-around;
-    padding: 0 240px 0 240px;
+    /* justify-content: space-around; */
+    /* padding: 0 240px 0 240px; */
     margin-top: 50px;
 }
-.insta-image img{
-
+.insta-img img{
+    width: 100%;
 }
