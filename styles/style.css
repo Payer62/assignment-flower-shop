@@ -115,6 +115,28 @@ header{
     text-decoration-line: underline;
     margin-top: 30px;
 }
+/* bonus section style */
+.bonus-section{
+    width: 1280px;
+    margin: 130px auto 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.bonus-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px tomato;
+}
+.bonus-info{
+    padding: 85px 0;
+    text-align: center;
+}
+.bonus-info p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
 /* deal-section style */
 .hot-deal{
     margin-top: 130px;
